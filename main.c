@@ -42,7 +42,7 @@ int main( int argc, char* args[] )
               printf("up\n");
               break;
             case SDLK_s:
-						  printf("down\n");
+							printf("down\n");
 				      break;
 			      case SDLK_a:
 				      printf("left\n");
