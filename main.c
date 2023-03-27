@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <SDL.h>
-#include <SDL_image.h>
+#include <SDL/DL.h>
 
 #define TRUE 1
 #define FALSE 0
@@ -41,8 +40,8 @@ int main( int argc, char* args[] )
             case SDLK_w:
               printf("up\n");
               break;
-            case SDLK_s:
-							printf("down\n");
+	          case SDLK_s:
+			        printf("down\n");
 				      break;
 			      case SDLK_a:
 				      printf("left\n");
