@@ -2,12 +2,15 @@ OBJS = main.c
 
 CC = g++
 
-COMPILER_FLAGS = -w
+CFLAGS = -w
 
-LINKER_FLAGS = -lSDL2
+LFLAGS = -lSDL2
 
 # Exectuable name
-OBJ_NAME = SDLout
+OBJ_NAME = sdl
 
 all : $(OBJS)
-		$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OBJ_NAME)
+		$(CC) $(OBJS) $(CFLAGS) $(LFLAGS) -o $(OBJ_NAME)
+
+clean : $(OBJS)
+		rm -f $(OBJ_NAME)
