@@ -1,2 +1,2 @@
 # SDL_Render
-SDL rendering made in C
+3D renderer made in C & SDL2 (may not complete)
