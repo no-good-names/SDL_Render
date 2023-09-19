@@ -1,2 +1,2 @@
 # SDL_Render
-3D renderer made in C & SDL2 (may not complete)
+moved to git repo <a href="https://github.com/no-good-names/Renderer">"Renderer"</a>
